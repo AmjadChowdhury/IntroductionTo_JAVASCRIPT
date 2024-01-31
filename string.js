@@ -76,4 +76,25 @@ name1 = 'amjad Vai neta hobe';
 console.log(name1.includes('d')); // true hobe jeheto d ase...
 
 
+// ...........Reverse.............
 
+// 1..
+let address = 'Mukbol matobbor chowdhuryr bari';
+let reverse = '';
+for(var letter of address){
+    reverse = letter + reverse;
+}
+console.log(reverse);
+
+// 2..
+address = 'Mukbol matobbor chowdhuryr bari';
+reverse = '';
+for(let i=0;i<address.length;i++){
+    reverse = address[i] + reverse;
+}
+console.log(reverse);
+
+// 3..
+address = 'Mukbol matobbor chowdhuryr bari';
+address_new = address.split('').reverse().join('');
+console.log(address_new);
