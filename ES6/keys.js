@@ -37,3 +37,13 @@ console.log(bakiInfo);
 Object.freeze(person);
 person.age = 22;
 console.log(person);
+
+// for in...
+const person1 = {name: 'Esha',age:5,isGood: true};
+for(const key in person1){
+    const value = person1[key];
+    console.log(key,value);
+}
+// name Esha
+// age 5
+// isGood true
